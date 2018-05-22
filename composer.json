@@ -1,0 +1,27 @@
+{
+    "name": "baijunyao/laravel-dingtalk",
+    "description": "laravel dingtalk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "baijunyao",
+            "email": "baijunyao@baijunyao.com"
+        }
+    ],
+    "require": {
+        "baijunyao/laravel-plugin-manager": "2.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Baijunyao\\LaravelDingtalk\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Baijunyao\\LaravelDingtalk\\DingtalkProvider"
+            ]
+        }
+    }
+}
