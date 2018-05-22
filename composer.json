@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "baijunyao/laravel-plugin-manager": "2.0.*"
+        "mingyoung/dingtalk": "1.0.*"
     },
     "autoload": {
         "psr-4": {
