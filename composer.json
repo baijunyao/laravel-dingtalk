@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "mingyoung/dingtalk": "1.0.*"
+        "mingyoung/dingtalk": "1.0.2"
     },
     "autoload": {
         "psr-4": {
