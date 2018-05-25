@@ -18,10 +18,11 @@ class Dingtalk extends Application
         \EasyDingTalk\Kernel\ServiceProvider::class,
         \EasyDingTalk\Checkin\ServiceProvider::class,
         \EasyDingTalk\Message\ServiceProvider::class,
+        \EasyDingTalk\Microapp\ServiceProvider::class,
         \EasyDingTalk\Attendance\ServiceProvider::class,
         \EasyDingTalk\Department\ServiceProvider::class,
         \Baijunyao\LaravelDingtalk\User\ServiceProvider::class,
-        \Baijunyao\LaravelDingtalk\Microapp\ServiceProvider::class,
+
     ];
 
     /**
