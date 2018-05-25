@@ -22,6 +22,7 @@ class Dingtalk extends Application
         \EasyDingTalk\Attendance\ServiceProvider::class,
         \EasyDingTalk\Department\ServiceProvider::class,
         \Baijunyao\LaravelDingtalk\User\ServiceProvider::class,
+        \Baijunyao\LaravelDingtalk\Process\ServiceProvider::class,
 
     ];
 
