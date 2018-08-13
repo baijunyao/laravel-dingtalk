@@ -15,7 +15,7 @@ class DingtalkProvider extends ServiceProvider
     {
         // 发布配置项
         $this->publishes([
-            __DIR__.'/config/dingtalk.php' => config_path('dingtalk.php'),
+            __DIR__.'/config/laravel-dingtalk.php' => config_path('laravel-dingtalk.php'),
         ]);
     }
 

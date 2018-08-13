@@ -35,7 +35,7 @@ class Dingtalk extends Application
      */
     public function __construct($config = null)
     {
-        $config = is_null($config) ? config('dingtalk') : $config;
+        $config = is_null($config) ? config('laravel-dingtalk') : $config;
         parent::__construct($config);
     }
 }
