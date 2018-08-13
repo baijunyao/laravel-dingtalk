@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Baijunyao\\LaravelDingtalk\\DingtalkProvider"
+                "Baijunyao\\LaravelDingtalk\\DingtalkServiceProvider"
             ]
         }
     }
