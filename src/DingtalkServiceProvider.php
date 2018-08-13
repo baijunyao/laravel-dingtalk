@@ -4,7 +4,7 @@ namespace Baijunyao\LaravelDingtalk;
 
 use Illuminate\Support\ServiceProvider;
 
-class DingtalkProvider extends ServiceProvider
+class DingtalkServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
